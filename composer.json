@@ -4,9 +4,9 @@
     "bin/brain-games"
   ],
   "autoload": {
-    "psr-4": {
-      "Hexlet\\Code\\": "src/"
-    }
+    "files": [
+      "src/Cli.php"
+    ]
   },
   "authors": [
     {
@@ -16,5 +16,7 @@
   ],
   "description": "Project Brain Games",
   "license": "MIT",
-  "require": {}
+  "require": {
+    "wp-cli/php-cli-tools": "^0.12.0"
+  }
 }
