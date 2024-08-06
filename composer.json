@@ -1,15 +1,20 @@
 {
-    "name": "hexlet/code",
-    "autoload": {
-        "psr-4": {
-            "Hexlet\\Code\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "Ilya Roschikhmarov",
-            "email": "ilrosch@mail.ru"
-        }
-    ],
-    "require": {}
+  "name": "hexlet/code",
+  "bin": [
+    "bin/brain-games"
+  ],
+  "autoload": {
+    "psr-4": {
+      "Hexlet\\Code\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Ilya Roschikhmarov",
+      "email": "ilrosch@mail.ru"
+    }
+  ],
+  "description": "Project Brain Games",
+  "license": "MIT",
+  "require": {}
 }
