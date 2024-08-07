@@ -10,7 +10,7 @@ const RULES = 'Find the greatest common divisor of given numbers.';
 // Функция для нахождения НОД
 function gcd(mixed $a, mixed $b)
 {
-    if ($a % $b) {
+    if ($a % $b == true) {
         return gcd($b, $a % $b);
     }
 
