@@ -39,9 +39,8 @@ function generateQuestionProgression()
     $progression = getProgression($number, $difference, $len);
     // Правильный ответ на вопрос
     $correctAnswer = strval($progression[$skip]);
-    // Создаем вопрос
+    $progression[$skip] = '..';
     $question = implode(' ', $progression);
-    $question = str_replace($correctAnswer, '..', $question);
     // Возвращаем из функции созданный вопрос и правильный ответ на него
     return [$question, $correctAnswer];
 }
