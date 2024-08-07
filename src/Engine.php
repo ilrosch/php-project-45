@@ -9,7 +9,7 @@ use function BrainGames\Cli\welcome;
 // Кол-во раундов игры
 const COUNT_ROUNDS = 3;
 
-function launchGame(string $rules, ?string $defGame)
+function launchGame(string $rules, mixed $defGame)
 {
     // Приветствие и запоминаем имя игрока (пользователя)
     $userName = welcome();
