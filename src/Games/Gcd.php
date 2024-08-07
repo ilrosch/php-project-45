@@ -8,9 +8,13 @@ use function BrainGames\Random\getRandomNumber;
 const RULES = 'Find the greatest common divisor of given numbers.';
 
 // Функция для нахождения НОД
-function gcd($a, $b)
+function gcd(int $a, int $b)
 {
-    return ($a % $b) ? gcd($b, $a % $b) : abs($b);
+    if ($a % $b) {
+        return gcd($b, $a % $b);
+    }
+
+    return abs($b);
 }
 
 // Функция, которая генерирует вопрос к игре наибольший общий делитель

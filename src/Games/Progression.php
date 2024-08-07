@@ -8,7 +8,7 @@ use function BrainGames\Random\getRandomNumber;
 const RULES = 'What number is missing in the progression?';
 
 // Функция, которая создает прогрессию
-function getProgression($num, $difference, $len)
+function getProgression(int $num, int $difference, int $len)
 {
     $progression = [];
     $number = $num;
