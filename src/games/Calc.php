@@ -10,12 +10,16 @@ const RULES = 'What is the result of the expression?';
 // Функция, которая выполняет выбранную операцию над числами
 function calc(int $a, int $b, string $operation)
 {
-  switch ($operation) {
-      case '*': return $a * $b;
-      case '+': return $a + $b;
-      case '-': return $a - $b;
-      default: return null;
-  }
+    switch ($operation) {
+        case '*':
+            return $a * $b;
+        case '+':
+            return $a + $b;
+        case '-':
+            return $a - $b;
+        default:
+            return null;
+    }
 }
 
 // Функция, которая генерирует вопрос для игры в четность числа
