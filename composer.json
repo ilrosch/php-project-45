@@ -1,10 +1,14 @@
 {
   "name": "hexlet/code",
   "bin": [
-    "bin/brain-games"
+    "bin/brain-games",
+    "bin/brain-even"
   ],
   "autoload": {
     "files": [
+      "src/games/Even.php",
+      "src/index.php",
+      "src/Random.php",
       "src/Cli.php"
     ]
   },
