@@ -1,9 +1,9 @@
 <?php
 
-  namespace BrainGames\Games\Progression;
+namespace BrainGames\Games\Progression;
 
-  use function BrainGames\Engine\launchGame;
-  use function BrainGames\Random\getRandomNumber;
+use function BrainGames\Engine\launchGame;
+use function BrainGames\Random\getRandomNumber;
 
 const RULES = 'What number is missing in the progression?';
 

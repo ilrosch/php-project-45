@@ -1,9 +1,9 @@
 <?php
 
-  namespace BrainGames\Games\Calc;
+namespace BrainGames\Games\Calc;
 
-  use function BrainGames\Engine\launchGame;
-  use function BrainGames\Random\getRandomNumber;
+use function BrainGames\Engine\launchGame;
+use function BrainGames\Random\getRandomNumber;
 
 const RULES = 'What is the result of the expression?';
 

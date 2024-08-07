@@ -1,9 +1,9 @@
 <?php
 
-  namespace BrainGames\Games\Prime;
+namespace BrainGames\Games\Prime;
 
-  use function BrainGames\Engine\launchGame;
-  use function BrainGames\Random\getRandomNumber;
+use function BrainGames\Engine\launchGame;
+use function BrainGames\Random\getRandomNumber;
 
 const RULES = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 

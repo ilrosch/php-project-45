@@ -1,10 +1,10 @@
 <?php
 
-  namespace BrainGames\Engine;
+namespace BrainGames\Engine;
 
-  use function cli\line;
-  use function cli\prompt;
-  use function BrainGames\Cli\welcome;
+use function cli\line;
+use function cli\prompt;
+use function BrainGames\Cli\welcome;
 
 // Кол-во раундов игры
 const COUNT_ROUNDS = 3;

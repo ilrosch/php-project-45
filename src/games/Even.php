@@ -1,9 +1,9 @@
 <?php
 
-  namespace BrainGames\Games\Even;
+namespace BrainGames\Games\Even;
 
-  use function BrainGames\Engine\launchGame;
-  use function BrainGames\Random\getRandomNumber;
+use function BrainGames\Engine\launchGame;
+use function BrainGames\Random\getRandomNumber;
 
 const RULES = 'Answer "yes" if the number is even, otherwise answer "no".';
 
