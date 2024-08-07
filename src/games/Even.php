@@ -1,8 +1,8 @@
 <?php
 
-  namespace BrainGames\games\Even;
+  namespace BrainGames\Games\Even;
 
-  use function BrainGames\index\launchGame;
+  use function BrainGames\Engine\launchGame;
   use function BrainGames\Random\getRandomNumber;
 
 const RULES = 'Answer "yes" if the number is even, otherwise answer "no".';
@@ -27,5 +27,5 @@ function generateQuestionParity()
 // Функция запуска игры
 function startEvenGame()
 {
-    launchGame(RULES, 'BrainGames\games\Even\generateQuestionParity');
+    launchGame(RULES, 'BrainGames\Games\Even\generateQuestionParity');
 }
